@@ -54,6 +54,12 @@ circle:nth-child(2){
 	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * 50) / 100);
 	stroke: #00f;  
 }
+.circle_box:nth-child(4) circle:nth-child(2){
+	stroke-dashoffset:calc(100 * 6);
+	stroke-dasharray:calc(100 * 6);
+	stroke-dashoffset:calc((100 * 6) - ((100 * 6) * 50) / 100);
+	stroke: #00f;  
+}
 .circle_box{
 	font-size: 36px;
 	color: #fff;
